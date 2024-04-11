@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -19,9 +10,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.todopage{
+  width: 50vw;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.todoitems{
+  margin: 2rem;
+}
+
+.liststyles{
+  background-color: #0dd1724f;
+}
+
+#checkbox{
+  display: flex;
+  float: inline-start;
+}
+
+button{
+  display: flex;
+  float: inline-end;
 }
 
 .App-link {
